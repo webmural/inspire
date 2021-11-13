@@ -1,20 +1,33 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: #fff909;
+  color: #151515;
 }
 
 :root {
-  background: #212;
-  color: silver;
+  background: indigo;
+  color: lemonchiffon;
 }
 
-:any-link {
-  color: violet;
+:link {
+  color: #09ff09;
+}
+
+:visited {
+  color: #fff909;
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: peachpuff;
+  }
+
+  :any-link {
+    color: gainsboro;
+  }
 }
 
 @media (prefers-contrast: more) {
   :root {
-    background: #201;
-    color: gainsboro;
+    background: midnightblue;
   }
 }
