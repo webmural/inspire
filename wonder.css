@@ -4,17 +4,26 @@
 }
 
 :root {
-  background: #212;
-  color: silver;
+  background: indigo;
+  color: lemonchiffon;
 }
 
 :any-link {
-  color: violet;
+  color: yellow;
+}
+
+@media (prefers-contrast: less) {
+  :root {
+    color: tan;
+  }
+
+  :any-link {
+    color: silver;
+  }
 }
 
 @media (prefers-contrast: more) {
   :root {
-    background: #201;
-    color: gainsboro;
+    background: black;
   }
 }

@@ -8,14 +8,53 @@
   outline-width: thick;
 }
 
-.bold {
-  font-weight: bolder;
+a {
+  font-weight: bold;
+  font-style: normal;
 }
 
-.free {
+sup,
+sub {
+  font-size: 3em;
+}
+
+h1 {
+  font-size: inherit;
+  margin-block: 1rem;
+}
+
+body {
+  text-shadow: 5px -3px 0 currentColor;
   margin: auto;
+  margin-inline-start: 1rem;
+  padding: 1vh;
+  padding-inline-start: 2vw;
 }
 
-.pad {
-  padding: 1ex;
+article {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+article > * {
+  flex-basis: 50%;
+}
+
+address {
+  margin-block-start: .33em;
+}
+
+ul {
+  margin: auto;
+  margin-block: 1ex;
+  padding: 1vw;
+}
+
+ul:last-child {
+  margin-block-end: 2em;
+}
+
+li {
+  margin-inline-start: 3vw;
 }
