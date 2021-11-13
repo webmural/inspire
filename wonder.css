@@ -1,6 +1,6 @@
 ::selection {
-  background: hotpink;
-  color: black;
+  background: #fff909;
+  color: #151515;
 }
 
 :root {
@@ -8,22 +8,26 @@
   color: lemonchiffon;
 }
 
-:any-link {
-  color: yellow;
+:link {
+  color: #09ff09;
+}
+
+:visited {
+  color: #fff909;
 }
 
 @media (prefers-contrast: less) {
   :root {
-    color: tan;
+    color: peachpuff;
   }
 
   :any-link {
-    color: silver;
+    color: gainsboro;
   }
 }
 
 @media (prefers-contrast: more) {
   :root {
-    background: black;
+    background: midnightblue;
   }
 }

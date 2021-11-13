@@ -1,6 +1,6 @@
 ::selection {
   background: indigo;
-  color: pink;
+  color: lightyellow;
 }
 
 :root {
@@ -8,8 +8,12 @@
   color: #151515;
 }
 
-:any-link {
-  color: darkmagenta;
+:link {
+  color: blueviolet;
+}
+
+:visited {
+  color: darkviolet;
 }
 
 @media (prefers-contrast: less) {
@@ -20,6 +24,6 @@
 
 @media (prefers-contrast: more) {
   :root {
-    background: whitesmoke;
+    background: floralwhite;
   }
 }

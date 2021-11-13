@@ -24,11 +24,11 @@ h1 {
 }
 
 body {
-  text-shadow: 5px -3px 0 currentColor;
   margin: auto;
   margin-inline-start: 1rem;
   padding: 1vh;
   padding-inline-start: 2vw;
+  text-shadow: 5px -3px 0;
 }
 
 article {
@@ -42,7 +42,7 @@ article > * {
 }
 
 address {
-  margin-block-start: .33em;
+  margin-block-start: .333em;
 }
 
 ul {
