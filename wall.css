@@ -1,0 +1,21 @@
+:root {
+  font-family: sans-serif;
+  font-size: calc(1em + 2vmin + 2vmax);
+}
+
+:focus {
+  outline-style: dashed;
+  outline-width: thick;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.free {
+  margin: auto;
+}
+
+.pad {
+  padding: 1ex;
+}
